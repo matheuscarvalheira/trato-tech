@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import styles from "./Categoria.module.scss";
 import Item from "components/Item";
 
+
 export default function Categoria() {
   const { nomeCategoria } = useParams();
   const { categoria, itens } = useSelector((state) => ({
